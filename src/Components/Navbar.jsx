@@ -10,8 +10,8 @@ import { Sun } from 'lucide-react';
 function Navigation() {
   const [active, setActive] = useState("EN")
   return (
-    <div className="bg-[#060606]">
-      <nav className="container py-[20px] flex justify-between items-center">
+    <div className="bg-[#060606] border border-[#1B1B1B]">
+      <nav className="container py-[20px] flex justify-between items-center ">
 
         <NavLink exact to="/" activeClassName="active" className='font-lato font-bold text-[18px] text-[#EEEEEE]'>
           MAX-V
