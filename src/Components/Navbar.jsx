@@ -27,26 +27,25 @@ function Navigation() {
             Contact
           </NavLink>
         </span>
-        
-        
+
+
         <div className="flex items-center gap-[16px]">
           <div className="flex bg-[#1f1f1f] rounded-[10px] p-1 w-fit">
-      {["UZ", "RU", "EN"].map((lang) => (
-        <button
-          key={lang}
-          onClick={() => setActive(lang)}
-          className={`px-[12px] py-[4px] rounded-[4px] text-sm font-medium transition
-            ${
-              active === lang
-                ? "bg-[#0086A1] text-[#060606]"
-                : "text-[#9E9E9E]"
-            }`}
-        >
-          {lang}
-        </button>
-      ))}
-    </div>
-            <Moon  className="text-[#EEEEEE]"/>
+            {["UZ", "RU", "EN"].map((lang) => (
+              <button
+                key={lang}
+                onClick={() => setActive(lang)}
+                className={`px-[12px] py-[4px] rounded-[4px] text-sm font-medium transition
+            ${active === lang
+                    ? "bg-[#0086A1] text-[#060606]"
+                    : "text-[#9E9E9E]"
+                  }`}
+              >
+                {lang}
+              </button>
+            ))}
+          </div>
+          <Moon className="text-[#EEEEEE]" />
         </div>
       </nav>
     </div>
