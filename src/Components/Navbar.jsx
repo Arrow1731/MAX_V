@@ -20,10 +20,10 @@ function Navigation() {
           <NavLink className='font-lato font-medium text-[#9e9e9e] text-[14px]' to="/about" activeClassName="active">
             About
           </NavLink>
-          <NavLink className='font-lato font-medium text-[#9e9e9e] text-[14px]' to="/contact" activeClassName="active">
+          <NavLink className='font-lato font-medium text-[#9e9e9e] text-[14px]' to="/projects" activeClassName="active">
             Projects
           </NavLink>
-          <NavLink className='font-lato font-medium text-[#9e9e9e] text-[14px]' to="/student" activeClassName="active">
+          <NavLink className='font-lato font-medium text-[#9e9e9e] text-[14px]' to="/contact" activeClassName="active">
             Contact
           </NavLink>
         </span>

@@ -4,7 +4,7 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import projects_all from "./Pages/Projects";
+import Projects from "./Pages/Projects";
 import NotFound from "./Pages/NotFound";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         {/* 404 sahifa uchun */}
         <Route path="*" element={<NotFound />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<projects_all />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
 
       <Footer />
