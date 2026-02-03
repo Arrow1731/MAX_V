@@ -16,7 +16,7 @@ export default class Home extends Component {
       <div>
         <header className='bg-gradient-to-t from-[#01080f] to-[#001c22] pt-[52px] pb-[137px]'>
           <div className='container flex flex-col justify-center items-center'>
-            <h1 className='text-[72px] font-bold text-[#EEEEEE] w-[703px] '>Digital Solutions for <br />
+            <h1 className='text-[72px] font-bold text-[#EEEEEE] w-[703px]'>Digital Solutions for <br />
               <span className="bg-gradient-to-r from-[#008BA4] to-[#001D35] bg-clip-text text-transparent">
                 Modern Businesses
               </span></h1>
