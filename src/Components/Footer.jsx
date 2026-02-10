@@ -16,7 +16,7 @@ function Footer() {
 
       <footer className="bg-[#0B0B0B] py-[48px]">
         <div className="container">
-          <div className="flex justify-between mb-[32px]">
+          <div className="flex justify-between mb-[32px] ">
             <div>
             <h2 className="text-[18px] font-bold text-[#EEEEEE] mb-[17px]">MAX-V</h2>
             <p className="text-[14px] font-normal w-[275px] text-[#9E9E9E]">Premium web development and design
